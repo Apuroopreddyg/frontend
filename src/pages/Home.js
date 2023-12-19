@@ -27,7 +27,7 @@ function Home() {
                 };
 
 
-                axios.post("https://test-report-3qti.onrender.com/predict",requestData, {
+                axios.post("https://tubular-crepe-678e4c.netlify.app",requestData, {
                     withCredentials: true,
                 })
                     .then((response) => {
