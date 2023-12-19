@@ -27,7 +27,7 @@ function Home() {
                 };
 
 
-                axios.post("https://barely-ruling-whale.ngrok-free.app/upload",requestData, {
+                await axios.post("https://barely-ruling-whale.ngrok-free.app/upload",requestData, {
                     withCredentials: true,
                 })
                     .then((response) => {
