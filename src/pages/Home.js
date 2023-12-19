@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import { toast } from 'react-hot-toast'
-import './Home.css'
+// import './Home.css'
 import axios from 'axios'
 
 
