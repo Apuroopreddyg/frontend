@@ -15,11 +15,11 @@ function App() {
   return (
     <>
       <Router>
-        <nav style={navStyle}>
-            <Link to="/Home" style={linkStyle}>Home</Link>
-            <Link to="/" style={linkStyle}>Login</Link>
-            <Link to="/Register" style={linkStyle}>Register</Link>
-        </nav>
+        // <nav style={navStyle}>
+        //     <Link to="/Home" style={linkStyle}>Home</Link>
+        //     <Link to="/" style={linkStyle}>Login</Link>
+        //     <Link to="/Register" style={linkStyle}>Register</Link>
+        // </nav>
         <Toaster position='top-center' toastOptions={{duration:2000}}></Toaster>
         <Routes>
           <Route exact path="/" element={<Login />}></Route>
