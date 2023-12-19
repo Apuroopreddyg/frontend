@@ -20,7 +20,7 @@ function App() {
         //     <Link to="/" style={linkStyle}>Login</Link>
         //     <Link to="/Register" style={linkStyle}>Register</Link>
         // </nav>
-        <Toaster position='top-center' toastOptions={{duration:2000}}></Toaster>
+        // <Toaster position='top-center' toastOptions={{duration:2000}}></Toaster>
         <Routes>
           <Route exact path="/" element={<Login />}></Route>
           <Route exact path="/Register" element={<Register />}></Route>
@@ -31,24 +31,24 @@ function App() {
     </>
   );
 }
-const navStyle = {
-  background: '#333',
-  color: '#fff',
-  display: 'flex',
-  justifyContent: 'space-around',
-  padding: '10px',
-};
+// const navStyle = {
+//   background: '#333',
+//   color: '#fff',
+//   display: 'flex',
+//   justifyContent: 'space-around',
+//   padding: '10px',
+// };
 
-const linkStyle = {
-  color: '#fff',
-  textDecoration: 'none',
-  padding: '8px 20px',
-  border: 'none',
-  borderRadius: '5px',
-  cursor: 'pointer',
-  textAlign: 'center',
-  transition: 'background-color 0.3s ease',
-  textTransform: 'uppercase',
-};
+// const linkStyle = {
+//   color: '#fff',
+//   textDecoration: 'none',
+//   padding: '8px 20px',
+//   border: 'none',
+//   borderRadius: '5px',
+//   cursor: 'pointer',
+//   textAlign: 'center',
+//   transition: 'background-color 0.3s ease',
+//   textTransform: 'uppercase',
+// };
 
 export default App;
