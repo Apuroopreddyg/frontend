@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Router>
-        // <Toaster position='top-center' toastOptions={{duration:2000}}></Toaster>
+        <Toaster position='top-center' toastOptions={{duration:2000}}></Toaster>
         <Routes>
           <Route exact path="/" element={<Login />}></Route>
           <Route exact path="/Register" element={<Register />}></Route>
