@@ -28,7 +28,7 @@ div {
   }
   
   /* Button styling */
-  button {
+  .clickbutton {
     background-color: black; /* Bootstrap success color */
     color: #fff;
     border: none;
@@ -39,7 +39,7 @@ div {
   }
   
   /* Response message styling */
-  h2 {
+  .h22 {
     margin-top: 20px;
     color: #333;
   }
