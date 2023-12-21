@@ -21,6 +21,9 @@ div {
   h1 {
     color: #007bff; /* Bootstrap primary color */
   }
+.h21{
+     color: #f44336;
+}
   
   /* File input styling */
   input[type="file"] {
