@@ -43,10 +43,10 @@ function Home() {
         <div class="container">
         <h1>Upload Image</h1>
         <input type="file" onChange={fileSelectHandler}></input>
-        <button onClick={fileUploadHandler}>Generate</button>
+        <button onClick={fileUploadHandler} class='clickbutton'>Generate</button>
         {imageURL && (
-        <div>
-          <h2>Selected Image Preview</h2>
+        <div class='imageform'>
+          <h2 class='h22'>Selected Image Preview</h2>
           <img src={imageURL} alt="Selected" style={{ maxWidth: '100%', maxHeight: '300px' }} />
         </div>
         )}
