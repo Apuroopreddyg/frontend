@@ -1,61 +1,45 @@
+/* home.css */
+
+/* Container styling */
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
 .container {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #f0f0f0; /* Set the background color here */
 }
-
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-input[type="file"] {
-  display: none;
-}
-
-label {
-  display: inline-block;
-  padding: 10px 15px;
-  background-color: #3498db;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-button {
-  padding: 10px 15px;
-  background-color: #2ecc71;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-bottom: 20px;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #27ae60;
-}
-
-h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-img {
-  max-width: 100%;
-  max-height: 300px;
-  margin-top: 20px;
-  border-radius: 5px;
-}
-
-.output {
-  margin-top: 20px;
-  color: #333;
-}
+  
+  /* Header styling */
+  h1 {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  /* File input styling */
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: black; /* Bootstrap success color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Response message styling */
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
