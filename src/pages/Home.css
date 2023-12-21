@@ -6,6 +6,7 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  background-color: #f9f9f9;
 }
 
 h1 {
@@ -35,6 +36,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 20px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -50,9 +52,10 @@ img {
   max-width: 100%;
   max-height: 300px;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 .output {
   margin-top: 20px;
+  color: #333;
 }
-
