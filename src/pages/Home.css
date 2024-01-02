@@ -21,9 +21,6 @@ div {
   h1 {
     color: #007bff; /* Bootstrap primary color */
   }
-.h21{
-     color: #f44336;
-}
   
   /* File input styling */
   input[type="file"] {
@@ -31,7 +28,7 @@ div {
   }
   
   /* Button styling */
-  .clickbutton {
+  button {
     background-color: black; /* Bootstrap success color */
     color: #fff;
     border: none;
@@ -42,7 +39,8 @@ div {
   }
   
   /* Response message styling */
-  .h22 {
+  h2 {
     margin-top: 20px;
     color: #333;
   }
+  
